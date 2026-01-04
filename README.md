@@ -103,7 +103,7 @@ NextDNS also can block Mozilla/Chrome telemetry.
 
 > If you're a journalist, activist, or dissident in an oppressive regime: TAKE NOTE!
 
-## The Timing correlation attack
+### The Timing correlation attack
 
 A **timing correlation attack** or **traffic analysis attack**. Here's how it works in the bookmark scenario:
 
@@ -125,7 +125,7 @@ An adversary monitoring at the ISP or national level sees:
 
 Even though the IPs are different, the **pattern is identical**. With enough data points, statistical correlation can link the two identities with high confidence.
 
-## Why bookmarks make this worse
+### Why bookmarks make this worse
 
 Bookmarks create a **persistent, predictable signature**:
 
@@ -135,6 +135,7 @@ Bookmarks create a **persistent, predictable signature**:
 4. **Involuntary**: These requests happen automatically, creating a reliable fingerprint
 
 ### Real-world example:
+
 ```
 User has bookmarks: [A, B, C, D, E, F, G, H, I, J]
 
@@ -149,7 +150,7 @@ Tue 8:00 → A,B,C,D,E,F,G,H,I,J from IP 198.51.100.45
 Correlation confidence: 99%+ (same 10 domains, same order, same timing)
 ```
 
-## Additional de-anonymization vectors
+### Additional de-anonymization vectors
 
 Beyond favicons, other bookmark-related vectors include:
 
@@ -158,7 +159,7 @@ Beyond favicons, other bookmark-related vectors include:
 3. **Traffic volume analysis**: Different sites have different resource sizes; analyzing encrypted traffic volume can identify sites
 4. **Browser fingerprinting**: Favicon requests include User-Agent and other headers that narrow down your browser configuration
 
-## Mitigation strategies for high-risk scenarios
+### Mitigation strategies for high-risk scenarios
 
 If you're in an oppressive regime or facing sophisticated adversaries:
 
@@ -199,7 +200,7 @@ Firefox about:config:
 - Multiple VPN hops (VPN → Tor, or VPN → VPN)
 - Consider your entire network stack: DNS, SNI, traffic timing
 
-## The hard truth
+### The hard truth
 
 For users facing state-level adversaries with comprehensive surveillance:
 
