@@ -32,7 +32,9 @@ These requests happen in the background, without you clicking the bookmark. They
 
 ### Extreme privacy risk example
 
-> If a state actor or hacker group monitors ISP level data, ISP level packet sniffing, they might catch all `./favicon.ico` requests, of all your bookmarks, across different detection periods and correlate them, and then build a complete profile of what sites you have bookmarked. This can build a very sold user profile with all your bookmarks correlated inside a massive database: and technically reconstruct all your bookmarks into a very valuable profile. Although perhaps rare, it is a possibility that you should not forget.
+> If a state actor or hacker group monitors ISP level data, ISP level packet sniffing, they might catch all `./favicon.ico` requests, of all your bookmarks, across different detection periods and correlate them, and then build a complete profile of what sites you have bookmarked. This can build a very solid user profile with all your bookmarks correlated inside a massive database: and technically reconstruct all your bookmarks into a very valuable profile. Although perhaps rare, it is a possibility that you should not forget.
+
+It is even worse if you **sometimes**  use a VPN or proxy, and **sometimes** don't.
 
 ---
 
