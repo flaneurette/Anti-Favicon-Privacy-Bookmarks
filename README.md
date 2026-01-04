@@ -2,6 +2,8 @@
 
 Modern browsers, including Firefox, sometimes make automatic network requests for bookmarks. While convenient, these background requests can pose a privacy risk, allowing websites to infer your online activity even when you haven’t visited the page. This guide explains the risk and how to mitigate it.
 
+> If you're a journalist, activist, or dissident in an oppressive regime: TAKE NOTE!
+
 ---
 
 ## 1. How Firefox makes background requests
@@ -101,7 +103,7 @@ NextDNS also can block Mozilla/Chrome telemetry.
 
 ## In-depth
 
-> If you're a journalist, activist, or dissident in an oppressive regime: TAKE NOTE!
+A more thorough explnation for technical users.
 
 ### The Timing correlation attack
 
