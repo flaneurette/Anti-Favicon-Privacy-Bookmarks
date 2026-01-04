@@ -47,6 +47,7 @@ You can reduce or eliminate these background requests by adjusting Firefox setti
 1. Open Firefox and type `about:config` in the address bar.
 2. Search for `browser.chrome.site_icons`.
 3. Set it to `false`.
+4. Set `browser.chrome.favicons` to false (additional protection)
 
 This prevents Firefox from automatically fetching site icons for bookmarks.
 
@@ -56,6 +57,12 @@ This prevents Firefox from automatically fetching site icons for bookmarks.
 
 1. In `about:config`, search for `network.prefetch-next` and set it to `false`.
 2. Search for `browser.urlbar.speculativeConnect.enabled` and set it to `false`.
+
+Additional strategies:
+
+Set `network.http.speculative-parallel-limit` to 0
+Set `network.predictor.enabled` to false
+Set `network.dns.disablePrefetch` to true
 
 These settings stop Firefox from preloading sites or preconnecting to bookmarks you haven’t visited.
 
