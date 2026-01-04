@@ -97,10 +97,13 @@ NextDNS also can block Mozilla/Chrome telemetry.
 
 > By following these steps, bookmarks become “offline-only” until you explicitly click them, minimizing background exposure.
 
+---
 
-# In-depth
+## In-depth
 
-## The Timing Correlation Attack
+> If you're a journalist, activist, or dissident in an oppressive regime: TAKE NOTE!
+
+## The Timing correlation attack
 
 A **timing correlation attack** or **traffic analysis attack**. Here's how it works in the bookmark scenario:
 
