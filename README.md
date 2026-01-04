@@ -28,6 +28,8 @@ These requests happen in the background, without you clicking the bookmark. They
 
 > Example: A server sees your IP request `/favicon.ico` every morning at 8 AM. It can infer that you’re likely online at that time, even if you never clicked the bookmark. Then they could determine your routine, and predict when you are online, and perhaps launch an attack if the site owner, or those who hacked it, are malicious actors. Remember: server logs are stored for weeks, months, sometimes years. This is valuable information to certain persons or groups.
 
+> Extreme privacy risk example: If a state actor or hacker group monitors ISP level data, ISP level packet sniffing, they might catch all ./favicon.ico requests, of all your bookmarks, across different detection periods and correlate them, and then build a complete profile of what sites you have bookmarked. This can build a very sold user profile with all your bookmarks correlated inside a massive database: and technically reconstruct all your bookmarks into a very valuable profile. Although perhaps rare, it is a possibility that you should not forget.
+
 ---
 
 ## 3. Mitigation strategies
