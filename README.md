@@ -205,7 +205,7 @@ Firefox about:config:
 For users facing state-level adversaries with comprehensive surveillance:
 
 **VPNs alone are insufficient.** They provide IP obfuscation, but traffic analysis can defeat this through:
-- Timing correlation (what you described)
+- Timing correlation
 - Traffic fingerprinting
 - Cross-session linkage via behavioral patterns
 
