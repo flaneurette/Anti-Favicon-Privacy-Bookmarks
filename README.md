@@ -61,7 +61,9 @@ This prevents Firefox from automatically fetching site icons for bookmarks.
 Additional strategies:
 
 Set `network.http.speculative-parallel-limit` to 0
+
 Set `network.predictor.enabled` to false
+
 Set `network.dns.disablePrefetch` to true
 
 These settings stop Firefox from preloading sites or preconnecting to bookmarks you haven’t visited.
