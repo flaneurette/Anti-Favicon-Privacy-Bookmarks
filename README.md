@@ -103,7 +103,7 @@ NextDNS also can block Mozilla/Chrome telemetry.
 
 ## In-depth
 
-A more thorough explnation for technical users.
+A more thorough explaination for technical users.
 
 ### The Timing correlation attack
 
