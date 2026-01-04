@@ -4,6 +4,20 @@ Modern browsers, including Firefox, sometimes make automatic network requests fo
 
 > If you're a journalist, activist, or dissident in an oppressive regime: TAKE NOTE!
 
+Your threat model must be realistic:
+
+    If you're a journalist, activist, or dissident in an oppressive regime
+    If you face ISP-level monitoring or deep packet inspection
+    If your adversary has resources for large-scale data correlation
+
+Then you need defense in depth:
+
+    Tor Browser (not just Tor) for anonymity-critical activities
+    Tails OS or Whonix for isolation
+    Strict operational security (no mixing of identities)
+    Understanding that metadata analysis can reveal patterns even when content is encrypted
+
+
 ---
 
 ## 1. How Firefox makes background requests
