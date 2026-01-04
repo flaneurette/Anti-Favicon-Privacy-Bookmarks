@@ -34,7 +34,7 @@ These requests happen in the background, without you clicking the bookmark. They
 
 > If a state actor or hacker group monitors ISP level data, ISP level packet sniffing, they might catch all `./favicon.ico` requests, of all your bookmarks, across different detection periods and correlate them, and then build a complete profile of what sites you have bookmarked. This can build a very solid user profile with all your bookmarks correlated inside a massive database: and technically reconstruct all your bookmarks into a very valuable profile. Although perhaps rare, it is a possibility that you should not forget.
 
-It is even worse if you **sometimes**  use a VPN or proxy, and **sometimes** don't. Theoretically, technically, it can unmask and cause de-anonymization of VPN when correct statistics are applied, by statiscally calculating the VPN "time" used, and the normal background "pinging" of the favicons. 
+It is even worse if you **sometimes**  use a VPN or proxy, and **sometimes** don't. Theoretically, technically, it can unmask and cause de-anonymization of VPN when correct statistics are applied, by statistically calculating the VPN "time" used, and the normal background "pinging" of the favicons. 
 
 ---
 
